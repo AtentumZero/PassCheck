@@ -1,6 +1,6 @@
 ![Alt text](/screenshots/logo-wide.png)
 
-A lightweight Javascript web application that allows users to test the strength of a password as well as check to see if it's been featured in a known data breach.
+A lightweight Javascript web application that allows users to test the strength of a password, how long it may take to crack as well as check to see if it has been featured in a known data breach.
 
 # Strength Check 
 Tests the strength of a password and estimates how long it may take to brute-force it. Tips on improving the password's strength are also provided. 
