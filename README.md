@@ -2,11 +2,12 @@
 
 A lightweight Javascript web application that features two password tools.
 
-# Strength Check - Tests the strength of a password and estimates how long it may take to brute-force it. Tips on improving the password's strength are also provided. 
+# Strength Check 
+Tests the strength of a password and estimates how long it may take to brute-force it. Tips on improving the password's strength are also provided. 
 
 ![Alt text](/screenshots/screenshot3.png)
 
-# Breach Check - Checks a password against Have I Been Pwned's breach database.
+# Breach Check Checks a password against Have I Been Pwned's breach database.
 
 ![Alt text](/screenshots/screenshot2.png)
 
