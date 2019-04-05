@@ -1,13 +1,14 @@
 ![Alt text](/screenshots/logo-wide.png)
 
-A lightweight Javascript web application that features two password tools.
+A lightweight Javascript web application that allows users to test the strength of a password as well as check to see if it's been featured in a known data breach.
 
 # Strength Check 
 Tests the strength of a password and estimates how long it may take to brute-force it. Tips on improving the password's strength are also provided. 
 
 ![Alt text](/screenshots/screenshot3.png)
 
-# Breach Check Checks a password against Have I Been Pwned's breach database.
+# Breach Check 
+Checks a password against Have I Been Pwned's breach database.
 
 ![Alt text](/screenshots/screenshot2.png)
 
