@@ -8,6 +8,6 @@ PassCheck doesn't log or store passwords that have been entered into it, nor doe
 
 It is highly recommend that, if you use this application on an Internet-facing web server, that you use HTTPS to ensure that passwords entered into it are not passed from the user to your web server in plain text.
 
-![Alt text](/screenshots/screenshot1.png)
-
 ![Alt text](/screenshots/screenshot2.png)
+
+![Alt text](/screenshots/screenshot3.png)
