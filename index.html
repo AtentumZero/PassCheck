@@ -25,7 +25,6 @@ Some handy password tools.
 <hr>
 	
 <body>
-
     <p class="head">Generator:</p>
 
     <form action="" name="passGen">
@@ -35,17 +34,14 @@ Some handy password tools.
 	<br><br>
     	<input type="text" name="output" size="18" placeholder="Password will generate here..." class="output">
     </form>
-
     </main>
     <!-- /.container -->
-
     <script src="js/generator.js"></script>
-
 </body>
 
 <hr>
 
-	<p class="head">Strength check:</p>
+   <p class="head">Strength checker:</p>
     </head>
     <body>
 	<input id="password-box" placeholder="Enter password..." type="password" />
@@ -101,7 +97,7 @@ Some handy password tools.
 <hr>
 
 <div>
-        <p class="head">Breach check:</p>
+        <p class="head">Breach checker:</p>
         <form id="passForm" action="#">
             <input type="password" placeholder="Enter password..." id="password" />
 	    <br>
@@ -119,20 +115,18 @@ Some handy password tools.
         let passwordChecker = new HIBP.HibpPassword(function(hash,count){
             resultTarget.innerHTML = '<br> <blockquote>Your password has been found in <b>'+count+'</b> data breaches. For more information, visit <a href="https://www.haveibeenpwned.com">haveibeenpwned.com.</a>';
         });
-
 		$("#passForm").submit(function(){
 			let password = passwordInput.value;
             if(typeof password !== 'undefined' && password != ''){
                 passwordChecker.GetPasswordOccurences(password);
             }
-
 			return false;
 		});
     </script>
 
 <hr>
-<center>
 
+<center>
 <font size="1">
 This site is for educational use. Entered passwords are not logged.
 <br>
