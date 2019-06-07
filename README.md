@@ -5,8 +5,9 @@ A lightweight Javascript web application that allows users to test the strength 
 PassCheck doesn't log or store passwords that have been entered into it, the only place your password is transmitted to is to haveibeenpwned.com over a HTTPS connection. No information regarding you is logged against that password, so it is not possible to identify what user or IP address has checked a password on the site.
 
 ## Features
-* [Strength check](https://github.com/apacketofsweets/PassCheck/wiki/Strength-check)
-* [Breach check](https://github.com/apacketofsweets/PassCheck/wiki/Breach-check)
+* [Generator](https://github.com/apacketofsweets/PassCheck/wiki/Generator)
+* [Strength check](https://github.com/apacketofsweets/PassCheck/wiki/Strength-checker)
+* [Breach check](https://github.com/apacketofsweets/PassCheck/wiki/Breach-checker)
 
 ## Wiki
 * [Setup](https://github.com/apacketofsweets/PassCheck/wiki/Setup)
