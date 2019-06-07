@@ -6,8 +6,8 @@ PassCheck doesn't log or store passwords that have been entered into it, the onl
 
 ## Features
 * [Generator](https://github.com/apacketofsweets/PassCheck/wiki/Generator)
-* [Strength check](https://github.com/apacketofsweets/PassCheck/wiki/Strength-checker)
-* [Breach check](https://github.com/apacketofsweets/PassCheck/wiki/Breach-checker)
+* [Strength checker](https://github.com/apacketofsweets/PassCheck/wiki/Strength-checker)
+* [Breach checker](https://github.com/apacketofsweets/PassCheck/wiki/Breach-checker)
 
 ## Wiki
 * [Setup](https://github.com/apacketofsweets/PassCheck/wiki/Setup)
