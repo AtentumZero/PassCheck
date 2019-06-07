@@ -24,15 +24,13 @@ Some handy password tools.
 
 <hr>
 
-	<p class="head">Strength check:</p>
+	<p class="head">Strength checker:</p>
     </head>
     <body>
 	<input id="password-box" placeholder="Enter password..." type="password" />
         <div id="password-time" class="hsimp-time"></div>
-        <ul id="password-checks" class="hsimp-checks"></ul>
-
-        <script src="js/hsimp.min.js"></script>
-
+        <ul id="password-checks" class="hsimp-checks"></ul>	   
+        <script src="js/hsimp.min.js"></script>	 
 	<script>
             (function (doc) {
                 var passwordInput = doc.getElementById("password-box"),
@@ -80,7 +78,7 @@ Some handy password tools.
 <hr>
 
 <div>
-        <p class="head">Breach check:</p>
+        <p class="head">Breach checker:</p>
         <form id="passForm" action="#">
             <input type="password" placeholder="Enter password..." id="password" />
 	    <br>
@@ -98,40 +96,34 @@ Some handy password tools.
         let passwordChecker = new HIBP.HibpPassword(function(hash,count){
             resultTarget.innerHTML = '<br> <blockquote>Your password has been found in <b>'+count+'</b> data breaches. For more information, visit <a href="https://www.haveibeenpwned.com">haveibeenpwned.com.</a>';
         });
-
 		$("#passForm").submit(function(){
 			let password = passwordInput.value;
             if(typeof password !== 'undefined' && password != ''){
                 passwordChecker.GetPasswordOccurences(password);
             }
-
 			return false;
 		});
     </script>
 
 <hr>
+	
 <body>
-
     <p class="head">Generator:</p>
-
     <form action="" name="passGen">
         <input type="text" name="length" size="3" value="6" placeholder="Specify length  ..." class="input"></div>
+	<br><br>
         <input type="button" value="Generate" onclick="populate(this.form.length.value)"/>
 	<br><br>
     	<input type="text" name="output" size="18" placeholder="Password will generate here..." class="output">
     </form>
-
     </main>
     <!-- /.container -->
-
     <script src="js/generator.js"></script>
-
 </body>
 
 <hr>
 
 <center>
-
 <font size="1">
 This site is for educational use. Entered passwords are not logged.
 <br>
